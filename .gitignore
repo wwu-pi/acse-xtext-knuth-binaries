@@ -1,0 +1,8 @@
+*.class
+
+*.java._trace
+*.java_trace
+
+*.xtendbin
+
+*.xml_gen
