@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: de.unimuenster.pi.bindsl
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: de.unimuenster.pi.bindsl; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib,
+ org.antlr.runtime,
+ org.eclipse.xtext.util,
+ org.eclipse.xtend.lib,
+ org.eclipse.emf.common
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: de.unimuenster.pi.binDsl,
+ de.unimuenster.pi.parser.antlr.internal,
+ de.unimuenster.pi.generator,
+ de.unimuenster.pi.serializer,
+ de.unimuenster.pi.services,
+ de.unimuenster.pi.parser.antlr,
+ de.unimuenster.pi.validation,
+ de.unimuenster.pi.binDsl.impl,
+ de.unimuenster.pi,
+ de.unimuenster.pi.scoping,
+ de.unimuenster.pi.binDsl.util
+Import-Package: org.apache.log4j

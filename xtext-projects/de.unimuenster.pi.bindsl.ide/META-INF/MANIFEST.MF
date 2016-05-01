@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: de.unimuenster.pi.bindsl.ide
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: de.unimuenster.pi.bindsl.ide; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: de.unimuenster.pi.bindsl,
+ org.eclipse.xtext.ide,
+ org.eclipse.xtext.xbase.ide
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: de.unimuenster.pi.ide.contentassist.antlr.internal,
+ de.unimuenster.pi.ide.contentassist.antlr
+

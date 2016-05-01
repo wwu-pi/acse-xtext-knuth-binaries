@@ -1,0 +1,11 @@
+grammar de.unimuenster.pi.BinDsl with org.eclipse.xtext.common.Terminals
+
+generate binDsl "http://www.unimuenster.de/pi/BinDsl"
+
+N:
+	v1=L (cond?='.' v2=L)?;
+	
+L:
+	v+=B+;
+B: 
+	b='0' | b='1';

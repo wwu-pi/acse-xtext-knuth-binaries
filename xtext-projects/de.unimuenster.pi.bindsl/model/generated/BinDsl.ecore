@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="binDsl" nsURI="http://www.unimuenster.de/pi/BinDsl" nsPrefix="binDsl">
+  <eClassifiers xsi:type="ecore:EClass" name="N">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="v1" eType="#//L" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cond" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="v2" eType="#//L" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="L">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="v" upperBound="-1" eType="#//B"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="B">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="b" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+</ecore:EPackage>
